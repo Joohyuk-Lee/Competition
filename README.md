@@ -12,7 +12,8 @@ target_1은 이진 분류, target_2는 다중 클래스 분류 타겟을 나타�
 
 ## ✅ Reference : 
 📌 [모델링 구조 참고](https://www.kaggle.com/pourchot/simple-neural-network) <p>
-📌 [임베딩 구조 참고](https://www.kaggle.com/abhishek/same-old-entity-embeddings)
+📌 [임베딩 구조 참고](https://www.kaggle.com/abhishek/same-old-entity-embeddings) <p>
+📌 [custom F1 참고](https://towardsdatascience.com/f-beta-score-in-keras-part-ii-15f91f07c9a4)
 
 <br>
 
@@ -25,7 +26,7 @@ target_1은 이진 분류, target_2는 다중 클래스 분류 타겟을 나타�
 <p> <br>
 🔹 데이터 선택: embed 신경망과 catboost의 각각의 StratifiedKFold를 다른 seed를 주었으면 어땠을까 생각이 듭니다.<p> 만약 embed의 4번째 폴드를 추출했다면 catboost의 4번째 폴드는 검증 성능이 아주 낮은 반면 나머지 폴드들은 catboost에서 검증 성능이 매우 높은 것으로 발견했습니다. <p>이 부분은 embed 신경망에서 이미 4번째 폴드를 제외한 나머지 폴드의 검증 데이터도 학습했기 때문으로 보입니다.
 
-
+<p>
 <br>
 
 
